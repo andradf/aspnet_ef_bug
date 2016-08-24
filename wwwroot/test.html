@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        TEST PAGE
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $.get("api/test/john", function(data){
+                    console.log(data);
+                });
+                $.get("api/test/jane", function(data){
+                    console.log(data);
+                });
+            });
+        </script>
+    </body>
+</html>
