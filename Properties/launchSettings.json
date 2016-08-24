@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:28958/",
+      "applicationUrl": "http://localhost:28958/test.html",
       "sslPort": 0
     }
   },
@@ -18,7 +18,7 @@
     "IdentityConcurrencyBug": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchUrl": "http://localhost:5000/test.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
